@@ -33,7 +33,7 @@ Inicializa:
 const calc = new CalcController(); // A calculadora já estará pronta para uso
 ````
 
-###🖱️ Métodos de Inicialização
+### 🖱️ 'Métodos de Inicialização'
 initialize()
 - Atualiza data e hora a cada segundo.
 
