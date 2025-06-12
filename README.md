@@ -33,7 +33,7 @@ Inicializa:
 const calc = new CalcController(); // A calculadora já estará pronta para uso
 ````
 
-### 🖱️ 'Métodos de Inicialização'
+### 🖱️ Métodos de Inicialização
 initialize()
 - Atualiza data e hora a cada segundo.
 
@@ -51,7 +51,7 @@ initKeyboard()
 
 - Suporta Ctrl+C (copiar) e Ctrl+V (colar).
 
-### 🧮 Métodos de Operações
+###  🧮 Métodos de Operações
 addOperation(value)
 - Adiciona números ou operadores à operação atual.
 
@@ -103,7 +103,7 @@ setDisplayDateTime()
 
 - getLastOperation(), setLastOperation(value), getLastItem(isOperator): Manipulam o array de operações internamente.
 
-### 📟 Getters/Setters
+###  📟 Getters/Setters
 - displayCalc: Valor exibido no display principal.
 
 - displayDate: Data exibida.
@@ -112,7 +112,7 @@ setDisplayDateTime()
 
 - currentDate: Data/hora atual do sistema.
 
-### 📁 Estrutura de Arquivos
+###  📁 Estrutura de Arquivos
 
 ````
 /
@@ -126,14 +126,14 @@ setDisplayDateTime()
 └── README.md
 ````
 
-### ⚠️ Observações Importantes
+###  ⚠️ Observações Importantes
 O áudio click.mp3 deve estar na pasta /media, no mesmo nível do HTML principal.
 
 Utilize sempre barra / no caminho do áudio (ex: 'media/click.mp3').
 
 O display aceita até 10 caracteres. Acima disso, será exibido "Error".
 
-###💡 Dicas de Uso
+###  💡 Dicas de Uso
 
 | Ação                   | Atalho                              |
 | ---------------------- | ----------------------------------- |
@@ -141,8 +141,8 @@ O display aceita até 10 caracteres. Acima disso, será exibido "Error".
 | Copiar valor           | `Ctrl + C` com o display focado     |
 | Colar valor            | `Ctrl + V` ou botão direito > Colar |
 
-### 👨‍💻 Contribuindo
+###  👨‍💻 Contribuindo
 Contribuições são bem-vindas! Se quiser sugerir melhorias, corrigir bugs ou adicionar novas funcionalidades, sinta-se à vontade para abrir uma issue ou pull request.
 
-### 📚 Créditos
+###  📚 Créditos
 Este projeto foi desenvolvido como parte do curso de JavaScript da Hcode Treinamentos.
